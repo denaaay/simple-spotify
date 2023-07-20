@@ -2,10 +2,10 @@
 const { Pool } = require('pg');
 
 const conn = new Pool({
-    user: 'denaaay',
+    user: 'your_username',
     host: 'localhost',
-    database: 'spotify3',
-    password: '1377',
+    database: 'your_db_name',
+    password: 'your_password',
     port: '5432',
 });
 
